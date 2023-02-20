@@ -1,0 +1,3 @@
+﻿  Cpp_Sensor.cpp
+C:\Users\m1gu\source\repos\Cpp_Sensor\Cpp_Sensor\Cpp_Sensor.cpp(73,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Cpp_Sensor.vcxproj -> C:\Users\m1gu\source\repos\Cpp_Sensor\x64\Debug\Cpp_Sensor.exe
