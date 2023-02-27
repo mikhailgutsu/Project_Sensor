@@ -1,0 +1,3 @@
+﻿  com.cpp
+main.obj : error LNK2005: "void * hSerial" (?hSerial@@3PEAXEA) уже определен в com.obj
+C:\Users\m1gu\source\repos\Cpp_Sensor\x64\Debug\Cpp_Sensor.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
