@@ -56,26 +56,26 @@ void Print::process()
 {
 	if (forCounter_i == 0)
 	{
-		setGraph();
-		printGraph();
+		setGraph();									//<		Set Graph
+		printGraph();								//<		Print Graph
 	}
 
 	if (forCounter_i <= 100 || forCounter_i != 0)
 	{
 		system("cls");
 
-		srandGraph(temp, counter);
-		printGraph();
+		srandGraph(temp, counter);					//<		Set temp_var to counter_position
+		printGraph();								//<		Print Graph
 		forCounter_i++;
 	}
 
 	if (forCounter_i > 100)
 	{
 		system("cls");
-		moveGraph();
+		moveGraph();								//<		Move Graph
 
-		srandGraph(temp, --counter);
-		printGraph();
+		srandGraph(temp, --counter);				//<		Set temp_var to --counter_position
+		printGraph();								//<		Print Graph
 		forCounter_i++;
 	}
 	Sleep(100);
@@ -85,5 +85,5 @@ void Print::process()
 void Print::sensor(int m_temp)
 {
 	temp = m_temp;
-	process();							//<		Start
+	process();										//<		Start
 }
