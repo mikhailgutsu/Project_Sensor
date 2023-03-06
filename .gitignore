@@ -19,3 +19,5 @@ Sensor v4 (connect COM1 - COM2)/project_sensor_v4/.vs/project_sensor_v4/FileCont
 Sensor v4 (connect COM1 - COM2)/project_sensor_v4/.vs/project_sensor_v4/v17/.suo
 *.db-wal
 *.opendb
+*.ilk
+*.exe

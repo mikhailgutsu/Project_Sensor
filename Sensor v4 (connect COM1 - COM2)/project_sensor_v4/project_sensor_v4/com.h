@@ -6,12 +6,10 @@
 #include <windows.h>
 #include "tchar.h"
 
-HANDLE hSerial;
-
-
 class COM
 {
 private:
+    HANDLE hSerial;
     char sReceivedChar;
     int  com1();
     void ReadCOM(void);
