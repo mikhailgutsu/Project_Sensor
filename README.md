@@ -1,4 +1,7 @@
 # Project_Sensor
 Sensor : 
 
-V1. Primitive srand() function and printing on x-y axe on console 
+Comunication between COM1 & COM2 (COM PORT).
+
+1) Write class for XOY AXE
+2) ReadFile COM1 -> COM2
