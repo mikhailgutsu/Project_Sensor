@@ -1,6 +1,7 @@
+//------- HEADER INCLUDE
 #include "print.h"
 
-
+//------- Set XY graph 
 void Print::setGraph()
 {
 	for (int forCounter_i = 0; forCounter_i < Lines; forCounter_i++)
@@ -21,12 +22,12 @@ void Print::setGraph()
 		Graph[19][forCounter_i] = "-";
 	}
 }
-//-------------------------------------------------------------------------
+//------- Set pos to include '*'
 void Print::srandGraph(int m_temp, int counter)
 {
 	Graph[m_temp][counter] = "*";
 }
-//-------------------------------------------------------------------------
+//------- Print updated graph
 void Print::printGraph()
 {
 	system("cls");
@@ -39,7 +40,7 @@ void Print::printGraph()
 		std::cout << std::endl;
 	}
 }
-//-------------------------------------------------------------------------
+//------- Move graph 
 void Print::moveGraph()
 {
 	for (int forCounter_i = 1; forCounter_i < Lines - 1; forCounter_i++)
@@ -50,7 +51,7 @@ void Print::moveGraph()
 		}
 	}
 }
-//-------------------------------------------------------------------------
+//------- Main funct to write graph
 void Print::process()
 {
 	if (forCounter_i == 0)
@@ -80,9 +81,9 @@ void Print::process()
 	Sleep(100);
 	counter++;
 }
-//-------------------------------------------------------------------------
+//------- COM
 void Print::sensor(int m_temp)
 {
 	temp = m_temp;
-	process();
+	process();							//<		Start
 }
